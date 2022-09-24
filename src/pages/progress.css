@@ -1,0 +1,19 @@
+body {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align: center;
+}
+.progress-box {
+ height: 50px;
+ width: 500px;
+ background-color: #8f8fa3;
+ margin: 10px auto;
+}
+.mover {
+ background-color: #222274;
+ width: 0;
+ height: inherit;
+ transition: width 1s linear 1s;
+}
+button {
+ padding: 20px;
+}
